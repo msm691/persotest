@@ -6,7 +6,7 @@
 ##
 
 NAME    = libmy.a
-BIN     = test_printf
+BIN     = printf
 
 SRC     = lib/my/my_printf.c \
           lib/my/core.c \
@@ -18,14 +18,13 @@ SRC     = lib/my/my_printf.c \
           lib/my/out_ptr.c
 
 OBJ     = $(SRC:.c=.o)
-CC      = gcc
+CC      = epiclang
 CFLAGS  = -Wall -Wextra -Werror -std=c99 -I include
 AR      = ar
 ARFLAGS = rc
 
 all: $(NAME) $(BIN)
 	@rm -f $(OBJ)
-	@echo "--- Compilation terminée ---"
 
 $(NAME): $(OBJ)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJ)
