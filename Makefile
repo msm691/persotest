@@ -13,7 +13,6 @@ SRC     = lib/my/my_printf.c \
           lib/my/parse.c \
           lib/my/dispatch.c \
           lib/my/io.c \
-          lib/my/out_basic.c \
           lib/my/ints_common.c \
           lib/my/out_ptr.c
 
