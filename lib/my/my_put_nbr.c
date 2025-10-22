@@ -7,26 +7,15 @@
 
 #include "my.h"
 
-static int print_rec(long n)
+int my_put_nbr(int nombre)
 {
-    int cnt;
-
-    cnt = 0;
-    if (n > 9)
-        cnt += print_rec(n / 10);
-    cnt += my_putchar((char)('0' + (n % 10)));
-    return cnt;
-}
-
-int my_put_nbr(int n)
-{
-    long v;
-
-    v = n;
-    if (v < 0) {
+    if (nombre < 0) {
         my_putchar('-');
-        v = -v;
-        return 1 + print_rec(v);
+        nombre = -nombre;
     }
-    return print_rec(v);
+    if (nombre > 9) {
+        my_put_nbr(nombre / 10);
+    }
+    my_putchar((nombre % 10) + '0');
+    return 0;
 }

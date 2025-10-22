@@ -7,16 +7,13 @@
 
 #include "my.h"
 
-int my_putstr(const char *s)
+int my_putstr(char const *str)
 {
-    int i;
+    int i = 0;
+    char charAt = str[i];
 
-    if (s == 0)
-        s = "(null)";
-    i = 0;
-    while (s[i] != '\0') {
-        write(1, &s[i], 1);
-        i += 1;
+    for (; str[i] != '\0'; i++) {
+        write(1, &charAt, 1);
     }
-    return i;
+    return 0;
 }
