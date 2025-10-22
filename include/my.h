@@ -10,6 +10,8 @@
     #include <stdarg.h>
     #include <stddef.h>
     #include <stdint.h>
+    #include <unistd.h>
+    #include <stdio.h>
 
     typedef struct {
         int flag_plus;

@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** %c %s and %%
+** flags1
 */
+
 #include "my.h"
 
 int out_char(fmt_t *f, va_list *ap)

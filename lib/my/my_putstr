@@ -2,9 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** putstr implementation
+** putstr
 */
-#include <unistd.h>
+
 #include "my.h"
 
 int my_putstr(const char *s)

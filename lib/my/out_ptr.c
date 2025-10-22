@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** %p conversion
+** pointer convert
 */
+
 #include "my.h"
 
 static int utoa16(char *buf, unsigned long long v)

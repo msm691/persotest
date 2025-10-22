@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** Helpers for integer formatting
+** Convert int
 */
+
 #include "my.h"
 
 static unsigned long long get_umul(fmt_t *f, va_list *ap)

@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** Specifier dispatcher
+** Call
 */
 #include "my.h"
 

@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** Dispatch specifiers
+** Dispatch
 */
+
 #include "my.h"
 
 int dispatch(fmt_t *f, va_list *ap)

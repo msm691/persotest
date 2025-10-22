@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** Parse flags, width, precision, length, spec
+** Parser
 */
+
 #include "my.h"
 
 static int is_flag(char c)

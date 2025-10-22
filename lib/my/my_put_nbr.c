@@ -2,8 +2,9 @@
 ** EPITECH PROJECT, 2025
 ** my_printf
 ** File description:
-** put_nbr implementation
+** put_nbr
 */
+
 #include "my.h"
 
 static int print_rec(long n)
